@@ -26,12 +26,6 @@ public class NotificationService {
 
     private final KafkaTemplate kafkaTemplate;
 
-//    @Autowired
-//    public NotificationService(SmsRepository smsRepository, KafkaTemplate kafkaTemplate) {
-//        this.smsRepository = smsRepository;
-//        this.kafkaTemplate = kafkaTemplate;
-//    }
-
     /**
      *
      * @param smsRequestBody
